@@ -1,8 +1,8 @@
 # SEED CORE v0.1.0
 
-**A real, autonomous, self-growing digital organism for POSIX systems.**
+**autonomous, self-growing digital organism for POSIX systems.**
 
-SEED CORE is not a simulation. It is a C program that compiles to a native binary, runs on any POSIX OS, probes its real host environment, composes real programs (shell scripts, pipelines), tests them inside a sandboxed subprocess, and — when they pass — promotes them to executable artifacts on disk that persist across reboots.
+SEED CORE is a C program that compiles to a native binary, runs on any POSIX OS, probes its real host environment, composes real programs (shell scripts, pipelines), tests them inside a sandboxed subprocess, and — when they pass — promotes them to executable artifacts on disk that persist across reboots.
 
 ```
   ╔══════════════════════════════════════════╗
